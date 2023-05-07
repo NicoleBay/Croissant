@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #b19c19;
+  --background-color: #f6f6f6;
+}
+body {
+  margin: 60px auto;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+p,
+footer {
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: var(--primary-color);
+}
+
+.email-link {
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  color: #000000;
+}
+
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
